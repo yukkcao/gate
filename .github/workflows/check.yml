@@ -9,7 +9,7 @@ name: VPN Gate Node Check
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 每 30 分钟一次，改成你自己的节奏
+    - cron: '*/100 * * * *'   # 每 30 分钟一次，改成你自己的节奏
   workflow_dispatch:
     inputs:
       max_nodes:
